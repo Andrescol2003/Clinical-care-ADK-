@@ -310,7 +310,3 @@ result = await orchestrator.run_full_workflow(patient)
 
 For detailed explanations with code examples, see:
 **`LEARNING_GUIDE.ipynb`**
-
----
-
-Good luck with your capstone, Wagdy! 🎓
