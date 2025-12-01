@@ -10,7 +10,7 @@ Study the files in this order to understand the system from foundation to comple
 
 ```
 PHASE 1: FOUNDATION (Building Blocks)
-├── 1. models/biogpt_wrapper.py    ← Your ML model integration
+├── 1. models/biogpt_wrapper.py    ← ML model integration
 └── 2. tools/clinical_tools.py     ← Tools agents can use
 
 PHASE 2: AGENTS (Learn Agent Patterns)
@@ -39,7 +39,7 @@ PHASE 3: COORDINATION (Everything Together)
 - Encapsulates model complexity (loading, tokenization, generation)
 - Provides consistent `generate()` interface for all agents
 - Handles GPU/CPU device management
-- Includes `MockBioGPT` for testing without loading real model
+- Includes `MockBioGPT` for testing without loading a real model
 
 **Key Classes:**
 ```python
